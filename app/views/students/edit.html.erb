@@ -1,0 +1,6 @@
+<h1>Editing student</h1>
+<% courses = Course.all.map { |course| [course.name, course.id] } %>
+<%= render 'form', student: @student, courses: courses %>
+
+<%= link_to 'Show', @student %> |
+<%= link_to 'Back', students_path %>
