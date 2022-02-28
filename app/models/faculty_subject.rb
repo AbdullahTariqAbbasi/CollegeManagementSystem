@@ -1,2 +1,0 @@
-class FacultySubject < ApplicationRecord
-end

@@ -1,2 +1,0 @@
-class FacultiesSubjectsController < ApplicationController
-end
